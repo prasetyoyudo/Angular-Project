@@ -87,5 +87,22 @@ export const configuration = {
         { link: 'http://www.twitter.com/', target: '_blank', title: 'Twitter', username: 'username', icon: 'twitter' },
         { link: 'http://www.instagram.com/', target: '_blank', title: 'Instagram', username: 'username', icon: 'instagram' },
         { link: 'http://www.behance.net/', target: '_blank', title: 'behance', username: 'username', icon: 'behance' },
-    ]
+    ],
+
+    blog: {
+        tagline: 'MY BLOG',
+        title: 'Thoughts become things...',
+        posts: [
+            { id: 1, title: 'The First Article', author: 'PY', publishdate: "2019-06-23T18:25:43.511Z", image: 'gallery-image-1.jpg', excert: 'This is the summary of the article...' },
+            { id: 2, title: 'The Second Article', author: 'PY', publishdate: "2019-06-23T18:25:43.511Z", image: 'gallery-image-2.jpg', excert: 'This is the summary of the article...' },
+            { id: 3, title: 'The Thir Article', author: 'PY', publishdate: "2019-06-23T18:25:43.511Z", image: 'gallery-image-3.jpg', excert: 'This is the summary of the article...' },
+            { id: 4, title: 'The Fourth Article', author: 'PY', publishdate: "2019-06-23T18:25:43.511Z", image: 'gallery-image-4.jpg', excert: 'This is the summary of the article...' },
+            { id: 5, title: 'The Fifth Article', author: 'PY', publishdate: "2019-06-23T18:25:43.511Z", image: 'gallery-image-5.jpg', excert: 'This is the summary of the article...' },
+            { id: 6, title: 'The Sixth Article', author: 'PY', publishdate: "2019-06-23T18:25:43.511Z", image: 'gallery-image-6.jpg', excert: 'This is the summary of the article...' },
+            { id: 7, title: 'The Seventh Article', author: 'PY', publishdate: "2019-06-23T18:25:43.511Z", image: 'gallery-image-1.jpg', excert: 'This is the summary of the article...' },
+            { id: 8, title: 'The Eight Article', author: 'PY', publishdate: "2019-06-23T18:25:43.511Z", image: 'gallery-image-3.jpg', excert: 'This is the summary of the article...' },
+            { id: 9, title: 'The ninth Article', author: 'PY', publishdate: "2019-06-23T18:25:43.511Z", image: 'gallery-image-5.jpg', excert: 'This is the summary of the article...' },
+            { id: 10, title: 'The Tenth Article', author: 'PY', publishdate: "2019-06-23T18:25:43.511Z", image: 'gallery-image-6.jpg', excert: 'This is the summary of the article...' },
+        ]
+    }
 }
